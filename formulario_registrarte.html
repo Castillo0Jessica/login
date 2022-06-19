@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario </title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+</head>
+<body>
+  <a href="formulario_login.html">Login</a>
+  <a href="formulario_registrarte.html">Registrate</a>
+  <a href="formulario_articulo.html">Cargar Articulo</a>
+
+  <form action="registro.php" method="post" class="form-registrer ">
+    <h2>Registrate</h2>
+    <div class="contenedor-inputs">
+      <i class="fas fa-user icon"></i>
+      <input type="text" name="nombre" placeholder="Nombre Completo" class="input-100">
+      <i class="fas fa-envelope icon"></i>
+      <input type="text" name="correo" placeholder="Correo Electrónico" class="input-100">
+      <i class="fas fa-phone icon"></i>
+      <input type="text" name="Teléfono" placeholder="Telefono/Celular" class="input-100">
+      <i class="fas fa-key icon"></i>
+      <input type="password" name="clave" placeholder="Contraseña" class="input-100">
+      <i class="fas fa-redo icon"></i>
+      <input type="text" name="clave2" placeholder="Repetir Contraseña" class="input-100">
+
+      <input type="submit" value="Registrarte" class="btn-enviar" required>
+
+      <label for="rgpd" class="rgdp"> Al registrarte, aceptas nuestras
+        Condiciones de uso y Politica de Privacidad.
+      </label>
+      <br>
+      <br>
+
+
+      <p class="form__link"> ¿Ya tienes una cuenta? <a href="formulario_login.html">Iniciar Sesión</a></p>
+    </div>
+  </form>
+</body>
+
+</html>

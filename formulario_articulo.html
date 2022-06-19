@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body>
+    <a href="formulario_login.html">Login</a>
+    <a href="formulario_registrarte.html">Registrate</a>
+    <a href="formulario_articulo.html">Cargar Articulo</a>
+
+    <form action="registro.php" method="post" class="form">
+        <h2>Cargar articulo</h2>
+        <div class="input-contenedor">
+            <i class="fas fa-university icon"></i>
+
+            <select name="Tipo de Subsistema" class="input-100">
+                <option value="Tipo de Subsistema">Tipo de Subsistema</option>
+                <option value="Universidad Tecnológia">Universidad Tecnológia</option>
+                <option value="Universidad Politécnica">Universidad Politécnica</option>
+                <option value="Instituto Tecnológico">Instituto Tecnológico</option>
+            </select>
+            <i class="fas fa-book icon"></i>
+            <input type="text" name="Titulo articulo" placeholder="Título Articulo" class="input-100">
+            <i class="fas fa-user icon"></i>
+            <input type="text" name="Autor" placeholder="Autor" class="input-100">
+            <i class="fas fa-book open"></i>
+            <textarea name="resumen" id="resumen" maxlength="200" rows="5" placeholder="Breve resumen" class="input-100"></textarea>
+            <i class="fas fa-file icon"></i>
+            <input type="file" placeholder="Archivo " class="input-100" id="select" size="3">
+
+            <input type="submit" value="Cargar Archivo" class="btn-enviar" class="input-100">
+
+
+        </div>
+
+
+
+       
+    </form>
+</body>
+
+</html>
